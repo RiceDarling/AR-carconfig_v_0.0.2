@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--	<script type="text/javascript" src="http://benvanik.github.io/WebGL-Inspector/core/embed.js"></script>
+-->    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Corolla 2017 - Based PBR Car From AUTO INFINITY</title>
+    <link rel="stylesheet" type="text/css" href="base.css">
+
+    <style type="text/css">
+    /* Custom CSS goes here */
+    #loading {
+      display : block;
+      position : fixed;
+      z-index: 100;
+      background-color:#666;
+      opacity : 0.4;
+      background-repeat : no-repeat;
+      background-position : center;
+      left : 0;
+      bottom : 0;
+      right : 0;
+      top : 0;
+    }
+    #loadingMessage {
+      left : 50%;
+      top : 50%;
+      font-size: 40px;
+      position : absolute;
+      margin-left : -40px;
+      margin-top : -40px;
+      z-index : 101;
+    }
+    </style>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="vendors/jszip.min.js"></script>
+    <script type="text/javascript" src="vendors/core.js"></script>
+    <script type="text/javascript" src="vendors/rStats.js"></script>
+    <script type="text/javascript" src="vendors/rStats.extras.js"></script>
+    <script type="text/javascript" src="vendors/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="vendors/bluebird.js"></script>
+    <script type="text/javascript" src="vendors/hammer.js"></script>
+    <script type="text/javascript" src="vendors/dat.gui.js"></script>
+    <script type="text/javascript" src="vendors/gunzip.min.js"></script>
+    <script type="text/javascript" src="vendors/OSG.js"></script>
+    <script type="text/javascript" src="IntegrateBRDF.js"></script>
+    <script type="text/javascript" src="EnvironmentCubeMap.js"></script>
+    <script type="text/javascript" src="EnvironmentSphericalHarmonics.js"></script>
+    <script type="text/javascript" src="EnvironmentPanorama.js"></script>
+    <script type="text/javascript" src="Environment.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+
+
+<body class="osgjs-theme-dark">
+  <div id="loading">
+    <div id="loadingMessage">Loading...</div>
+  </div>
+  <div id="ViewContainer" class="osgjs-fullpage">
+    <!-- very important change the size of the parent element instead-->
+    <canvas id="View" style="height:100%;width:100%;" oncontextmenu="return false;"></canvas>
+  </div>
+
+  <div class="osgjs-info osgjs-info-dark">
+
+    <a href="#" class="osgjs-powered" title="Auto Teset">
+      <img src="logo.png" alt="" width="32" height="32">
+      <strong>Auto00.com</strong>
+    </a>
+
+  </div>
+
+</body>
+
+</html>
