@@ -1,0 +1,5 @@
+例： C:\Program Files (x86)\Google\Chrome\Application\chrome.exe --allow-file-access-from-files
+
+以管理员身份运行命令提示符 
+
+将所用浏览器的本地exe地址复制上去 然后 空格 + --allow-file-access-from-files
